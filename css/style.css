@@ -1,0 +1,62 @@
+body{
+    background-color: white;
+}
+.numbers {
+    padding: 30px;
+    font-size: 50px;
+    border: 1px #584a4a solid;
+    margin: 1px;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.numbers:hover {
+    background-color: wheat;
+    color: black;
+}
+
+#master {
+    width: 270px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 500px;
+}
+
+#zero {
+    margin: 1px 90px;
+}
+
+.red {
+    padding: 26px;
+    border: 5px rgb(3, 3, 3) solid;
+    background-color: red;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+    justify-content: center;
+}
+
+.boxpass {
+    width: 200px;
+    text-align: center;
+}
+
+.btn_password,
+.changecode {
+    width: 75px;
+    height: 25px;
+    font-size: 10px;
+}
+
+input[type="password"] {
+    margin: 50px 0 15px;
+}
+#timer{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 35px;
+    display: none;
+}
